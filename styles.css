@@ -69,7 +69,9 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat;
+  background: linear-gradient(#fff, transparent 12%),
+              linear-gradient(0deg, #f7f5f0, transparent),
+              url('images/background.jpg') no-repeat;
   background-size: cover;
   background-position: center 27%;
   overflow: hidden;
@@ -99,6 +101,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+
 }
 .location {
   background-color: #333;
