@@ -88,6 +88,7 @@ header .profile-image {
 }
 header .profile-image:hover {
   filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   transform: scale(1.08);
   border-radius: 5px;
 }
@@ -154,7 +155,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: deepskyblue;
+  background: #ffc063;
 }
 
 footer {
