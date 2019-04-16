@@ -101,7 +101,6 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-
 }
 .location {
   background-color: #333;
@@ -116,14 +115,14 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
-  flex: 1;
 }
 .card:hover {
   border-color: #f79250;
 }
 
 ul.hobbies,
-ul.skills {
+ul.skills,
+footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -170,12 +169,6 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 footer ul li {
@@ -270,6 +263,10 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+  }
+
+  .card {
+    flex: 1;
   }
 
 }
