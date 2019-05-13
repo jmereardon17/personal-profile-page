@@ -4,10 +4,10 @@ For this project I was given a personal profile webpage to practice basic HTML a
 
 I went for the Exceeds Expectations Grading where I had to further expand on the project by creating an additional page to expand on this online profile, edit the styling of the profile photo's CSS properties like transition and transform, add more photos and imagery to the page, and add more text to the page like a list of my hobbies.
 
-Grade - Exceeds Expectations
-
 Browsers tested for compatibility:
 - Chrome
 - Firefox
 - Edge
 - Safari
+
+Grade: Exceeds Expectations
